@@ -1,6 +1,19 @@
 *{
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------------------------------ NAVIGATION */
 
 nav{
     display: flex;
@@ -9,3 +22,101 @@ nav{
     height: 48px;
     padding: 6px;
 }
+
+.nav-el{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 220px;
+}
+
+.nav-el a{
+    text-decoration: none;
+    color: #5f6368;
+    line-height: 24px;
+    font-size: 13px;
+}
+
+.nav-el a:hover{
+    text-decoration: underline;
+}
+
+.dots{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dots:hover{
+    background-color: #f8f9fa;
+}
+
+.dots-container{
+    width: 18px;
+    height: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.dot{
+    background-color: #5f6368;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    margin: auto;
+}
+
+.account-wrapper{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.account-wrapper:hover{
+    background-color: #f8f9fa;
+}
+
+.account{
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #aa53ac;
+    color: white;
+}
+
+.account h2{
+    margin: none;
+    font-size: 18px;
+}
+
+/* ------------------------------------ LOGO */
+
+.logo-wrapper{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.logo-wrapper h1 span{
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    font-size: 4.6rem;
+}
+
+/* ------------------------------------ MAIN */
