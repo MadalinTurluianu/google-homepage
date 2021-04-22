@@ -155,6 +155,7 @@ main{
 }
 
 .search-bar input{
+    background: #fff;
     border: none;
     width: 80%;
     word-wrap: break-word;
