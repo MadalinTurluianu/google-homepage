@@ -211,7 +211,7 @@ section{
 }
 
 .languages-wrapper{
-    width: 290px;
+    width: 20rem;
     display: flex;
     justify-content: space-between;
     font-size: small;
